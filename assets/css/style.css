@@ -35,7 +35,11 @@
   --marigold_75: hsla(42, 99%, 46%, 0.75);
   --xiketic_90: hsla(280, 37%, 8%, 0.9);
   --cultured-2: hsl(0, 0%, 97%);
-  --marigold: hsl(42, 99%, 46%);
+  /* --marigold: hsl(42, 99%, 46%); this is colour */ 
+  /* background: rgb(0,101,219); */
+  /* background:linear-gradient(90deg, rgb(0,101,219) 50%, rgba(0,212,255,1)100%);  */
+  --marigold:hsl(200, 76%, 51%);
+
   --platinum: hsl(0, 0%, 89%);
   --dim-gray: hsl(0, 0%, 42%);
   --white_15: hsla(0, 0%, 100%, 0.15);
@@ -407,7 +411,7 @@ body {
 .nav-toggle-btn.active .close { display: block; }
 
 .navbar {
-  background-color: var(--eerie-black-1);
+  background-color:var(--eerie-black-1);
   color: var(--white);
   position: absolute;
   top: 100%;
@@ -512,12 +516,12 @@ body {
 
 .hero {
   --section-padding: 60px;
-  margin-block-start: 84px;
+  margin-block-start: 2px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
-  min-height: 100vh;
+  min-height: 90vh;
   display: grid;
   align-items: center;
 }
